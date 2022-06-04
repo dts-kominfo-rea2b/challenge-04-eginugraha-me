@@ -14,7 +14,7 @@ const createDate = (dates, num) => {
     return resultDate.toString();
   } else {
     let arrayDate = [];
-    for (let = i = 0; i < dates.length; i++) {
+    for (let i = 0; i < dates.length; i++) {
       let resultDate = (Date.parse(dates[i])) / 1000;
       arrayDate.push(resultDate);
     }
